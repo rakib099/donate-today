@@ -44,6 +44,10 @@ h3 {
     border-radius: 5px;
 }
 
+.donate-amount-section {
+    margin-bottom: 120px;
+}
+
 .sec2-donate {
     text-align: center;
 }
@@ -54,6 +58,7 @@ h3 {
 
 .amount-items {
     margin-top: 4%;
+    margin-bottom: 50px;
 }
 .amount-item {
     color: dimgray;
@@ -63,4 +68,21 @@ h3 {
     margin-right: 2.5%;
     background-color: #f9f9f9;
     text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+.gray-color {
+    margin-bottom: 3%;
+}
+
+.gray-color p {
+    color: #bebbbb;
+}
+.gray-color hr {
+    height: 1px;
+    background-color: #dedcdc;
+    border: none;
 }
