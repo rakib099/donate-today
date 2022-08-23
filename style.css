@@ -178,7 +178,6 @@ input[type=submit] {
 
 footer {
     background-color: #0a0d1f;
-    text-align: center;
     padding: 20px;
 }
 
@@ -186,10 +185,12 @@ footer h4 {
     font-family: 'Lobster Two', cursive;
     font-size: 34px;
     color: tomato;  /* Another color: #ff6884*/
+    text-align: center;
 }
 
 footer p {
     color: lightgoldenrodyellow;
+    text-align: center;
 }
 
 .join-us {
