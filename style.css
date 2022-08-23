@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h4 {
@@ -68,21 +68,26 @@ p {
 }
 
 .amount-items {
-    margin-top: 4%;
-    margin-bottom: 50px;
+    padding: 29px 272px 39px;   /* top left-right bottom */
 }
 .amount-item {
     color: dimgray;
-    width: 15%;
-    padding-left: 15px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    width: 20%;
+    margin: 0 11px;
+    padding: 8px 1px;
     background-color: #f9f9f9;
     text-align: center;
+    border-radius: 6px;
+}
+
+#selected-amount {
+    color: tomato;
+    border: 2px solid tomato;
+    background-color: #fdecef;
 }
 
 hr {
-    width: 50%;
+    width: 58%;
 }
 
 .gray-color {
