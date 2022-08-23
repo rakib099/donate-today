@@ -191,3 +191,21 @@ footer h4 {
 footer p {
     color: lightgoldenrodyellow;
 }
+
+.join-us {
+    margin-bottom: 120px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.half-width p {
+    margin-bottom: 6%;
+}
+
+.half-width img {
+    width: 80%;
+    border-radius: 10px;
+}
