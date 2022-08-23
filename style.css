@@ -132,3 +132,36 @@ hr {
 #education {
     background-color: papayawhip;
 }
+
+.updates-section {
+    margin-bottom: 120px;
+}
+
+.newsletter {
+    width: 60%;
+    margin: 0 14%;
+    margin-top: 40px;
+    padding: 72px 70px;
+    background-color: papayawhip;
+}
+
+input[type=email] {
+    width: 30%;
+    background-color: #d6d4d4;
+    font-size: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -10px;
+}
+
+input[type=submit] {
+    background-color: tomato;
+    font-size: 15px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
