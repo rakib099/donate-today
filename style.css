@@ -19,6 +19,10 @@ h3 {
     font-size: 35px;
 }
 
+h4 {
+    font-size: 25px;
+}
+
 .top-banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -33,6 +37,7 @@ h3 {
 }
 
 .top-items p {
+    color: white;
     margin-bottom: 40px;
 }
 .link-button {
@@ -53,8 +58,13 @@ h3 {
     text-align: center;
 }
 
+p {
+    color: dimgray;
+}
+
 .flexible-container {
     display: flex;
+    
 }
 
 .amount-items {
@@ -86,4 +96,34 @@ hr {
     height: 1px;
     background-color: #dedcdc;
     border: none;
+}
+
+.donate-plan {
+    margin-bottom: 120px;
+}
+
+.plan-items {
+    align-items: center;
+    margin: 68px;
+}
+
+.plan-item {
+    width: 30%;
+    height: 300px;
+    margin-left: 1.67%;
+    margin-right: 1.67%;
+    padding: 40px 20px;  /* (top-bottom) (right-left) */
+    border-radius: 20px;
+}
+
+#food {
+    background-color: rgb(228, 240, 249);
+}
+
+#shelter {
+    background-color: #ffd7de;
+}
+
+#education {
+    background-color: papayawhip;
 }
