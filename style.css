@@ -198,7 +198,7 @@ footer p {
 
 .half-width {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 6%;
 }
 
 .half-width p {
@@ -207,5 +207,9 @@ footer p {
 
 .half-width img {
     width: 80%;
-    border-radius: 10px;
+    border-radius: 27px;
+}
+
+.join-us p {
+    text-align: justify;
 }
