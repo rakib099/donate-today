@@ -91,9 +91,21 @@ hr {
     margin-bottom: 3%;
 }
 
-.gray-color p {
+.gray-color input[type=text] {
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.gray-color input[type=text]::placeholder {
     color: #bebbbb;
 }
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
 .gray-color hr {
     height: 1px;
     background-color: #dedcdc;
